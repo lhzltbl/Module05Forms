@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module05Forms.PersonalInfoPage"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib" Title="Lhizel N. Tabual">
+
+
+    <ContentPage.Content>
+        <StackLayout Padding="15" BackgroundColor="Bisque">
+            <Label Text="Personal Information Form"
+                   TextColor="Black"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text=""
+                   Placeholder="Enter First Name"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Entry Grid.Column="0"
+                           Text=""
+                           TextColor="Black"
+                           Placeholder="Enter Middle Name"/>
+
+                <Switch Grid.Column="1"
+                            OnColor="Orange"
+                            ThumbColor="Green"
+                            IsToggled="True" 
+                            VerticalOptions="Center"/>
+
+            </Grid>
+
+            <Entry Text=""
+                       TextColor="Black"
+                       Placeholder="Enter Last Name"/>
+
+            <Picker x:Name="picker"
+                    Title="Gender">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                        <x:String>Other</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Label Text="Birthdate"
+                       TextColor="Black"/>
+            <DatePicker MinimumDate="01/01/1900"
+                            MaximumDate="12/31/2027"
+                            Date="{x:Static sys:DateTime.Today}" />
+
+
+            <Label Text="Age:"
+                       TextColor="Black"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Address"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Contact No."
+                       Keyboard="Telephone"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Email"
+                       Keyboard="Email"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Username"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Password"
+                       IsPassword="True"/>
+
+            <Entry Text=""
+                       Placeholder="Enter Password"
+                       IsPassword="True"/>
+
+            <Button Text="Submit"
+                        TextColor="White"
+                        BackgroundColor="Green"
+                        Clicked="btnSubmit"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
