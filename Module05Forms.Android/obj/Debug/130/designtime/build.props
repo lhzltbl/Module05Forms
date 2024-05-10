@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638503751979700546
+_nugetassetstimestamp=638509409594281003
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\lhize\onedrive\desktop\college\3rdyear_2023-2024\pdc30\module05forms\module05forms.android\module05forms.android.csproj
+projectfullpath=c:\users\lhize\onedrive\desktop\college\3rdyear_2023-2024\pdc30\module05forms-main\module05forms.android\module05forms.android.csproj
