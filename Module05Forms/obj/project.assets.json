@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms\\Module05Forms.csproj",
+      "projectUniqueName": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms\\Module05Forms.csproj",
       "projectName": "Module05Forms",
-      "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms\\Module05Forms.csproj",
+      "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms\\Module05Forms.csproj",
       "packagesPath": "C:\\Users\\lhize\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms\\obj\\",
+      "outputPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms.Android\\Module05Forms.Android.csproj",
+      "projectUniqueName": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms.Android\\Module05Forms.Android.csproj",
       "projectName": "Module05Forms.Android",
-      "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms.Android\\Module05Forms.Android.csproj",
+      "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms.Android\\Module05Forms.Android.csproj",
       "packagesPath": "C:\\Users\\lhize\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms.Android\\obj\\",
+      "outputPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms\\Module05Forms.csproj": {
-              "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms\\Module05Forms\\Module05Forms.csproj"
+            "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms\\Module05Forms.csproj": {
+              "projectPath": "C:\\Users\\lhize\\OneDrive\\Desktop\\College\\3rdYear_2023-2024\\PDC30\\Module05Forms-main\\Module05Forms\\Module05Forms.csproj"
             }
           }
         }
